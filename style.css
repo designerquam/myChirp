@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: inter;
+}
+
+a{text-decoration: none;}
+img{width: 100%;}
+
+.hero-section{
+    width: 100%;
+    height: 78rem;
+    background-color: rgb(255, 253, 253);
+    padding: 1.5rem 1.2rem;
+    margin: 0 auto;
+}
+
+.hero-section-wrapper,
+.features-wrapper,
+.testimonials-wrapper,
+.pricing-wrapper{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+.hero-section-wrapper header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 375px;
+    margin: 0 auto 3rem auto;
+}
+
+
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(94, 94, 255);
+}
+
+.main-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.main-hero .main-hero-img{
+    margin-bottom: 3rem;
+    background-image: url(Assets/Hero\ Image\ \(Desktop\ View\).png);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main-hero .right-main h1,
+.features-wrapper h1,
+.testimonials-wrapper h1,
+.pricing-wrapper h1{
+    font-size: 2.1rem;
+    line-height: 1.2;
+    margin-bottom: .8rem;
+}
+
+.main-hero .right-main .sub-txt1{
+    margin-bottom: 1rem;
+}
+
+.paragh{
+    color: #999999;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+
+.main-hero .right-main p span{
+    color: #005f9b;
+    font-weight: 600;
+}
+
+.main-hero .right-main .main-cta{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+ .sign-twitter{
+    background-color: #1da1f2;
+    padding: 1rem 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin-bottom: .8rem;
+}
+
+.twitter-icon{
+    margin-right: 10px;
+}
+
+.main-hero .right-main .main-cta .learn-more{
+    color: #005f9b;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+
+.profile-gen{
+    width: 45px;
+    height: 45px;
+}
+
+.main-profiles{
+    display: grid;
+    grid-template-columns: repeat(9 , 1.5rem);
+    margin-bottom: 1.2rem;
+}
+
+.profile1{background-image: url(Assets/userAvatar09.svg);}
+.profile2{background-image: url(Assets/userAvatar08.svg);}
+.profile3{background-image: url(Assets/userAvatar07.svg);}
+.profile4{background-image: url(Assets/userAvatar06.svg);}
+.profile5{background-image: url(Assets/userAvatar05.svg);}
+.profile6{background-image: url(Assets/userAvatar04.svg);}
+.profile7{background-image: url(Assets/userAvatar03.svg);}
+.profile8{background-image: url(Assets/userAvatar02.svg);}
+.profile9{background-image: url(Assets/userAvatar01.svg);}
+
+.features{
+    width: 100%;
+    height: 81.25rem;
+    padding: 1.5rem 1.2rem;
+}
+
+
+.features-wrapper h1{
+    margin-bottom: 2rem;
+}
+
+.main-features .main-fetaures-content{
+    padding: 1rem;
+    margin: 0 auto;
+    border: 1px solid #c9c9c9;
+    margin-bottom: 1rem;
+}
+
+.main-features .main-fetaures-content .features-img{
+    width: 2.5rem;
+    margin-bottom: .5rem;
+}
+
+.main-features .main-fetaures-content .h3-txt{
+    margin-bottom: 1rem;
+}
+
+
+.testimonials{
+    width: 100%;
+    height: 66rem;
+    background-color: #daf1ff;
+}
+
+.testimonials .testimonials-wrapper{
+    padding: 3rem 1rem 0 1rem;
+}
+
+.testimonials-wrapper h1{
+    margin-bottom: 3rem;
+}
+
+
+.test-profile{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.test-profile .test-profile-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.test-profile .test-profile-img .test-profile-img-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.test-profile-img-flex .profile-gen{
+    margin-right: .5rem;
+}
+
+.test-profile-img-flex .profile-name{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.test-profile-img-flex .profile-name h3{
+    font-size: 1rem;
+}
+
+.test-profile-img-flex .profile-name .sub-txt4{
+    font-size: .8rem;
+}
+
+.test-profile .sub-txt5{
+    margin-bottom: 1.5rem;
+}
+
+.test-profile .test-likes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.test-profile .test-likes .test-likes-count{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.test-profile .test-likes .test-likes-count svg{
+    margin-right: .3rem;
+}
+
+.pricing{
+    width: 100%;
+    height: 55rem;
+}
+
+.pricing-wrapper{
+    padding: 4rem 1rem 3rem;
+    margin: o auto;
+    text-align: center;
+}
+
+.pricing-wrapper .p-txt{
+    margin-bottom: 3rem;
+}
+
+.pricing-wrapper .main-pricing{
+    background-color: rgb(255, 248, 249);
+    padding: 1rem;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.pricing-wrapper .main-pricing .main-pricing-duration{
+    border-bottom: 1px solid #999999;
+    margin: 2rem 1rem;
+}
+
+.pricing-wrapper .main-pricing .main-pricing-duration p{
+    font-size: 1.5rem;
+}
+
+.pricing-wrapper .main-pricing .main-pricing-duration h1{
+    font-size: 3rem;
+}
+
+.pricing-wrapper .main-pricing .main-pricng-features{
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pricing-wrapper .main-pricing .main-pricng-features .main-pricing-items svg{
+    margin-right: 1rem;
+    width: 10px;
+}
+
+.pricing-wrapper .main-pricing .main-pricng-features .main-pricing-items{
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.pricing-wrapper .main-pricing .main-pricng-features .main-pricing-items p{
+    font-size: 1.1rem;
+}
+
+.checkmark{
+    background-image: url(Assets/Checkmark.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    overflow: visible;
+}
+
+
+footer{
+    width: 100%;
+    height: 10rem;
+    background-color: #daf1ff;
+}
+
+.footer-wrapper{
+    max-width: 1024px;
+    padding: 1.5rem;
+}
+
+.footer-wrapper .footer-logo{
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.footer-wrapper .footer-links svg{
+    margin-right: 1rem;
+}
+
+.footer-wrapper  .ft-link{
+    display: inline-block;
+    margin-right: .5rem;
+    color: black;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.534);
+    z-index: 10;
+    display: none;
+    transition: all 10s;
+}
+
+.overlay-show {
+    display: block;
+    transition: all .5s ease-in-out;
+}
+
+nav{
+    display: block;
+    position: fixed;
+    width: 80%;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    background-color: rgb(238, 238, 238);
+    padding: 5rem 1rem;
+    margin: 0 auto;
+    z-index: 100;
+    text-align: center;
+    transform: translateX(100%);
+    transition: transform .4s ease-in-out;
+}
+
+.nav-show{
+    transform: translateX(0);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: black;
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-weight: 900;
+}
+
+nav ul li .sign-in{
+    background-color: #1da1f2;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 1rem auto;
+    width: 250px;
+}
+
+nav .exit-btn{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 15px;
+}
+
+nav .exit-btn path{
+    fill: black;
+}
+
+
+@media  only screen and (min-width:768px){
+
+    .hero-section-wrapper,
+    .features-wrapper,
+    .testimonials-wrapper,
+    .pricing-wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+    }
+
+    .hero-section{
+        padding: 2.5rem ;
+    }
+
+    .logo{
+        font-size: 2.5rem;
+    }
+
+    .hero-section-wrapper header{
+        max-width: 768px;
+    }
+
+    nav{
+        background-color: unset;
+        position: relative;
+        height: auto;
+        margin: 0;
+        top: 0;
+        right: 0;
+        transform: translateX(0);
+        padding: 0;
+    }
+
+    nav ul{
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        column-gap: 30px;
+    }
+
+    nav ul li a{
+        color: #727272;
+        font-weight: 400;
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 1.2rem;
+    }
+
+    nav ul li .sign-in{
+        margin: 0;
+        padding: 15px 0;
+    }
+
+    .menu-btn,.exit-btn{
+        display: none;
+    }
+
+    .hero-section{
+        height: 75rem;
+    }
+
+
+
+    .main-hero .main-hero-img{
+        background-image: url(Assets/Hero\ Image\ \(Tablet\ View\).png);
+        width: 100%;
+        height: 500px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .main-hero .right-main h1,
+    .features-wrapper h1,
+    .testimonials-wrapper h1,
+    .pricing-wrapper h1 {
+        font-size: 3rem;
+        line-height: 1.1;
+        overflow-y: hidden;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .main-hero .right-main .sub-txt1,
+    .p-txt{
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+        line-height: 1.2;
+        overflow-y: hidden;
+    }
+
+    .main-hero .right-main .main-cta{
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .main-hero .right-main .main-cta .learn-more,
+    .main-hero .right-main .main-cta .sign-twitter
+    {
+        margin-bottom: 0;
+    }
+
+    .main-hero .right-main .main-cta .sign-twitter{
+        margin-right: 2rem;
+        padding: 15px 30px;
+    }
+
+    .main-hero .right-main .sub-txt2{
+        font-size: 1.5rem;
+    }
+
+
+    .features {
+        height: 65rem;
+    }
+
+    .testimonials{
+        height: 55rem;
+    }
+
+    .main-pricing{
+        width: 450px;
+    }
+
+}
+
+
+@media only screen and (min-width:1024px) {
+    
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .hero-section-wrapper,
+    .features-wrapper,
+    .testimonials-wrapper,
+    .pricing-wrapper{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    }
+
+
+    .hero-section-wrapper header{
+        max-width: 1500px;
+    }
+
+
+    .hero-section{
+        padding-top: 1.5rem;
+        height: 48rem;
+    }
+
+    .hero-section-wrapper header{
+        margin-bottom: 5rem;
+    }
+
+    .main-hero{
+        flex-direction: row-reverse;
+        gap: 2rem;
+    }
+
+    .main-hero .main-hero-img{
+        background-image: url(Assets/Hero\ Image\ \(Desktop\ View\).png);
+    }
+
+
+    .main-features{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 1rem;
+        width: 100%;
+        height: 600px;
+    }
+
+    .features{
+        height:50rem ;
+
+    }
+
+    .features h1{
+        margin-bottom: 3rem;
+    }
+
+    .main-features .main-fetaures-content{ margin-bottom: 0; }
+
+    .testimonials-contents {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .testimonials{
+        height: 30rem;
+        margin-bottom: 3rem;
+    }
+
+    .pricing{
+        height: 45rem;
+    }
+
+    .testimonials-contents{
+        padding: 0 2rem;
+    }
+
+}
